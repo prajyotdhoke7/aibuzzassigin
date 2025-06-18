@@ -20,7 +20,7 @@ class _WebViewWidgetState extends State<WebViewWidget1> {
         WebViewController()
           ..setJavaScriptMode(JavaScriptMode.unrestricted)
           ..loadRequest(Uri.parse(widget.url));
-  }""
+  }
 
   @override
   Widget build(BuildContext context) {
